@@ -19,5 +19,17 @@ namespace csharp_calcolatrice
         {
             return a + b;
         }
+
+        // Metodo per la differenza tra due numeri interi
+        public static int Differenza(int a, int b)
+        {
+            return a - b;
+        }
+
+        // Metodo per la differenza tra due numeri double
+        public static double Differenza(double a, double b)
+        {
+            return a - b;
+        }
     }
 }
