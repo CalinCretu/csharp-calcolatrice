@@ -31,5 +31,29 @@ namespace csharp_calcolatrice
         {
             return a - b;
         }
+
+        // Metodo per la moltiplicazione di due numeri interi
+        public static int Moltiplicazione(int a, int b)
+        {
+            return a * b;
+        }
+
+        // Metodo per la moltiplicazione di due numeri double
+        public static double Moltiplicazione(double a, double b)
+        {
+            return a * b;
+        }
+
+        // Metodo per il valore assoluto di un numero intero
+        public static int ValoreAssoluto(int a)
+        {
+            return a < 0 ? -a : a;
+        }
+
+        // Metodo per il valore assoluto di un numero double
+        public static double ValoreAssoluto(double a)
+        {
+            return a < 0 ? -a : a;
+        }
     }
 }
