@@ -55,5 +55,17 @@ namespace csharp_calcolatrice
         {
             return a < 0 ? -a : a;
         }
+
+        // Metodo per il minimo tra due numeri interi
+        public static int Minimo(int a, int b)
+        {
+            return a < b ? a : b;
+        }
+
+        // Metodo per il minimo tra due numeri double
+        public static double Minimo(double a, double b)
+        {
+            return a < b ? a : b;
+        }
     }
 }

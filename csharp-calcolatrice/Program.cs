@@ -20,7 +20,10 @@
             Console.WriteLine("Valore assoluto di -7: " + CalcoliHelper.ValoreAssoluto(-7));
             Console.WriteLine("Valore assoluto di -2.3: " + CalcoliHelper.ValoreAssoluto(-2.3));
 
-         
+            // Minimo
+            Console.WriteLine("Minimo tra 10 e 7: " + CalcoliHelper.Minimo(10, 7));
+            Console.WriteLine("Minimo tra 3.5 e 6.2: " + CalcoliHelper.Minimo(3.5, 6.2));
+
         }
     }
 }
