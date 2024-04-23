@@ -67,5 +67,17 @@ namespace csharp_calcolatrice
         {
             return a < b ? a : b;
         }
+
+        // Metodo per il massimo tra due numeri interi
+        public static int Massimo(int a, int b)
+        {
+            return a > b ? a : b;
+        }
+
+        // Metodo per il massimo tra due numeri double
+        public static double Massimo(double a, double b)
+        {
+            return a > b ? a : b;
+        }
     }
 }

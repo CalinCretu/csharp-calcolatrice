@@ -24,6 +24,9 @@
             Console.WriteLine("Minimo tra 10 e 7: " + CalcoliHelper.Minimo(10, 7));
             Console.WriteLine("Minimo tra 3.5 e 6.2: " + CalcoliHelper.Minimo(3.5, 6.2));
 
+            // Massimo
+            Console.WriteLine("Massimo tra 12 e 9: " + CalcoliHelper.Massimo(12, 9));
+            Console.WriteLine("Massimo tra 4.2 e 8.7: " + CalcoliHelper.Massimo(4.2, 8.7));
         }
     }
 }
